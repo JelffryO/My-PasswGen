@@ -59,6 +59,7 @@ function generatePassword() {
   // displayPassword
   var generatePassword = randPass.join('');
   return generatePassword;
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
