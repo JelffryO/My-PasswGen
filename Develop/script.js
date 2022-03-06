@@ -44,7 +44,21 @@ function criteria () {
     }
   };
  
-  
+// generate password
+function generatePassword() {
+  //random password
+  var randPass = [];
+
+  reset();
+  criteria();
+  // generate password
+  for (let i = 0; i < charlength; i++) {
+    let randomPassword = passchar[Math.floor(Math.random() * passchar.length)];
+    randPass = randPass.concat(randomPassword);
+  };
+  // displayPassword
+  var generatePassword = randPass.join('');
+  return generatePassword;
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
