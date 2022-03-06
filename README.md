@@ -22,7 +22,7 @@ THEN the password is either displayed in an alert or written to the page
  
 
 # Screenshot 
-  
+
 
 # GitHub Repository URL
- 
+https://github.com/JelffryO/My-PasswGen
