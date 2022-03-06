@@ -19,10 +19,10 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 # Website URL
- 
+https://jelffryo.github.io/My-PasswGen/
 
 # Screenshot 
-
+https://imgur.com/a/XzYsbSV
 
 # GitHub Repository URL
 https://github.com/JelffryO/My-PasswGen
